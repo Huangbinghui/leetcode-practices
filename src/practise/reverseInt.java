@@ -7,7 +7,7 @@ import java.util.Scanner;
  最小值Integer.MIN_VALUE=-2147483648,当遇到临界将要溢出之时return 0；
  思路：每次从X中pop出个位数的值加到Y的后面，产生逆序数。
 /*********************************************************/
-//2019-10-18 author：黄丙辉
+//2019-10-18 @author：黄丙辉
 public class reverseInt {
     //题解方法reverse，题号为7
     public static int reverse7(int x){
