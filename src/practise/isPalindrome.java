@@ -9,6 +9,7 @@ package practise;
 
 public class isPalindrome {
     public boolean isPalindrome9(int x) {
+        int final num = x;
         int y = x;
         int mode = 0;
         while(y>9||y<-9){
@@ -20,6 +21,6 @@ public class isPalindrome {
             y = y*10 + x%10;
             x /= 10;
         }
-        return x==y;
+        return num==y;
     }
 }
